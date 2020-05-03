@@ -1,0 +1,37 @@
+{
+	// bahasa sama rate nya
+	"language": "english-us",
+	"rate": 175,
+
+	// path ke directorynya
+	"dataset_path": "../datasets/attendance_system_dataset",
+
+	// nama kelas
+	"class": "Manajemen Proyek",
+
+	// kelas jam berapa
+	"timing": "14:05",
+
+	// di detect berapa kali dulu sebelum di save
+	"n_face_detection": 10,
+	
+	// banyaknya gambar per orang
+	"face_count": 10,
+
+	// maksimal telat kelas (second)
+	"max_time_limit": 300,	
+
+	// jumlah percobaan berturut turut
+	"consec_count": 3,
+
+	// path ke database
+	"db_path": "database/attendance.json",
+
+	// path ke encoding, recognizer, dan labgel encoding
+	"encodings_path": "output/encodings.pickle",
+	"recognizer_path": "output/recognizer.pickle",
+	"le_path": "output/le.pickle",
+
+	// library buat face detection
+	"detection_method": "hog"
+}
